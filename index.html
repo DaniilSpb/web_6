@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width,initial-scale=1">
+        <title> Foxconn</title> 
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+        <body>
+
+            <header class="header">
+              <div class="container">
+               <div class="header-wrap">
+                <div class="logo">Foxconn</div>
+                    <nav class="nav">
+                            <a href="#" class="nav__link">Ipad</a>
+                            <a href="second.html" class="nav__link">О продукте</a>
+                            <a href="source.html" class="nav__link">Источники информации</a>
+                        </nav>
+            <a href="#" class="login">Войти</a>
+       
+              </div>  
+               </div> 
+            </header>
+            <section>
+                <div class="container">
+                        <div class ="tabs">
+                                <h1 class="tabs-logo">  Foxconn Store</h1>
+                                   <ul class="tabs-menu">
+                                       <li class="tabs-menu__item">Обзор</li>
+                                       <li class="tabs-menu__item">Примеры</li>
+                                       <li class="tabs-menu__item">Документы</li>
+                                       <li class="tabs-menu__item">Как пользоваться</li>
+                                   </ul>
+                            </div> 
+                                <div class="tabs-content">
+                                    <h2 class="tabs-content__title">
+                                            Купите ipad у нас. <br>
+                                            Это надёжно и безопасно.
+                                    </h2>
+                                    <p class="tabs-content__text">Вы можете быть уверены, что наш товар  прослужит вам  долго и качественно, если он  куплен в&nbsp  Foxconn.</p>
+                                <button class="button">Заказать ipad</button>
+                                </div>
+                </div>
+            </section>
+           <section class="features">
+                <div class="container">
+                    <h2 class="section-title section__title">
+                            Специальная акция только для вас!!!
+                    </h2>
+                    <div class="card card-full card-bottom">
+                        <h3 class="card__title"></h3>
+                            <p class="card__text">
+                                    При каждой  покупке у вас накапливается сумма равная 10%  от &nbsp; всех покупок в Foxconn. Можно смело тратить их на мечту!
+                            </p>
+                        
+                    </div> <!-- /card card-full card-bottom-->
+                    <div class="card-wrap">
+                        <div class="card section__card">
+                            <h3 class="card__title">Почему ipad?</h3>
+                            <p class="card__text">У iPad поразительные способности в самых разных областях. Работайте над проектами, занимайтесь творчеством, играйте в захватывающие игры — всё это делается легко и увлекательно. Смотрите, какие возможности открываются перед вами.</p>
+                        </div>
+                        <div class="card section__card">
+                            <h3 class="card__title">Серьезные приложения без труда</h3>
+                            <p class="card__text">На iPad можно скачать Adobe Photoshop, Microsoft Office и другие знакомые вам прило­жения. Пользо­ваться ими на дисплее Multi‑Touch очень удобно.!</p>
+                        </div>
+                        <div class="card section__card">
+                            <h3 class="card__title">Работайте сразу в нескольких приложениях</h3>
+                            <p class="card__text">С iPad всё просто, даже если вам нужно сделать несколько дел одновременно. Переключиться с одного приложения на другое очень легко. В режиме Slide Over или Split View можно открыть сразу несколько приложений, а также перетаскивать контент из одного приложения в другое касанием или с помощью трекпада.</p>
+                        </div>
+                    </div>
+                </div>
+           </section>
+            <section class="delivery">
+                <div class="container">
+                    <h2 class="section-title ">Работа у нас </h2>
+                    <form method="POST" enctype="multipart/form-data" action="/cgi-bin/tutor5.py" class="form delivery__form">
+                        <div class="row">
+                            <div class="col-100">
+                                <input type="text" name = "name" class="input form__input" placeholder="Фамилия Имя Отчество">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-50">
+                                <input type="tel" name ="numTell" class="input form__input" placeholder="Номер Телефона">
+                            </div>
+                            <div class="col-50">
+                                <input type="email" name="email" class="input form__input" placeholder="Электронная Почта">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-100">
+                                <input type="text"  name="birthday" class="input form__input" placeholder="Дата Рождения">
+                            </div>
+                        </div>
+                        <div class ="select_sity">
+                        <select class="select-css" name ="sity"> 
+                            <option>Выберите город </option> 
+                            <option>Санкт-Петербург</option> 
+                            <option>Москва</option> 
+                            <option>Казань</option> 
+                            <option>Новосибирск</option> 
+                            </select>
+                        </div>
+                        <div class="select">
+                            <label> Выберите вакансию </label>
+                            <input type=radio name=job value="Курьер">Курьер
+                            <input type=radio name=job value="Специалист по продажам">Специалист по продажам
+                        </div>
+                        <div class="select">
+                            <label> Выберите ваши сильные качества </label>
+                            <input type=checkbox name="quality" value="Ответсвенный">Ответсвенный 
+                            <input type=checkbox name="quality" value="Честный">Честный
+                            <input type=checkbox name="quality" value="Не пью">Не пью
+                        </div>
+
+                      <div class="example-1">
+                        <div class="form-group">
+                            <label class="label">
+                             <i class="material-icons">attach_file</i>
+                             <span class="title">Добавить файл</span>
+                             <input type="file" name="myFile">
+                            </label>
+                        </div>
+                     </div>
+                        
+                        <div class="button-block">
+                            <button type="submit" class="button">отправить заявку </button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+            <footer class="footer">
+                <div class="container">
+                    <p class="footer__text">
+                        Название Foxconn вымышлено и все совпадения с реальностью случайны. Информация на данном сайте представлена исключительно в образовательных целях. Сайт не является офертой или рекламным предложением.
+                    </p>
+                </div>
+            </footer>
+        </body>
+   
+</html>

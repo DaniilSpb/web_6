@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width,initial-scale=1">
+        <title> Foxconn</title> 
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <script  type= "text/javascript" src = "main.js"> </script>
+    </head>
+        <body>
+            <header class="header">
+              <div class="container">
+               <div class="header-wrap">
+                <div class="logo">Foxconn</div>
+                    <nav class="nav">
+
+                            <a href="index.html" class="nav__link">Ipad</a>
+                            <a href="second.html" class="nav__link">О продукте</a>
+                            <a href="#" class="nav__link">Источники информации</a>
+                        </nav>
+            <a href="#" class="login">Войти</a>
+              </div>  
+               </div> 
+            </header>
+           <section class="features">
+                <div class="container">
+                    <h2 class="section-title section__title">
+                            Используемые источники.
+                    </h2>
+                    <ul>
+                        <li class="my_list">  html  </li>
+                            <ul>
+                                <li> <a href ="https://developer.mozilla.org/ru/docs/Web/HTML" class="nav__link">mdn WEB DOC</a> </li>
+                                <li> <a href="http://htmlbook.ru/" class="nav__link"> htmlbook </a> </li>
+                            </ul>
+                        
+                        <li class="my_list">  css </li>
+                            <ul>
+                                <li> <a href ="https://www.w3schools.com/css/" class="nav__link">W3schools</a> </li>
+                                <li> <a href="https://www.ozon.ru/product/novaya-bolshaya-kniga-css-135731189/?sh=_bWFewAAAA" class="nav__link">Большая книга css </a> </li>
+                            </ul>
+                        <li class="my_list">  javascript </li>
+                            <ul>
+                                <li> <a href ="https://learn.javascript.ru/" class="nav__link"> Современный учебник JavaScript</a> </li>
+                                <li> <a href="https://developer.mozilla.org/ru/docs/Learn/JavaScript" class="nav__link"> Документация </a> </li>
+                            </ul>
+                        <li class="my_list">  Другое </li>
+                            <ul>
+                                <li> <a href ="https://habr.com/ru/company/edison/blog/344878/" class="nav__link"> Адаптивность</a> </li>
+                                <li> <a href="https://developer.mozilla.org/ru/docs/Learn/CSS/Building_blocks/The_box_model" class="nav__link"> Блочная модель </a> </li>
+                                <li> <a href="https://developer.mozilla.org/ru/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout" class="nav__link"> Grid </a> </li>
+                                <li> <a href="https://developer.mozilla.org/ru/docs/Learn/CSS/CSS_layout/Flexboxt" class="nav__link"> Flexbox </a> </li>
+                            </ul>
+                    </ul>
+
+                    <div id="openModal" class="modal">
+                        <div id="myModal" class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h3 class="modal-title">Елин Даниил Олегович 4936</h3>
+                              <a href="#close" title="Close" class="close">×</a>
+                            </div>
+                            <div class="modal-body">    
+                              <h2>  Time now :    <span id = "clock">    </span>    </h2>
+                              <button class="button" onclick = "currentTime()"> я покажу время</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <a class="nav__link" href="#openModal">Открыть модальное окно</a>
+                      <h3>Индивудальное задание</h3>
+                      <p>5.	Из матрицы размером n на m удалить строки, содержащие более трех отрицательных элементов. </p>
+                      
+                      <div class="lesson " id="lesson">
+                        <span> Выберите ширину </span>
+                        <div class ="width_arr">
+                            <select class="select-css-number" id ="x">
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                            </select>
+                        </div>
+                        <span>Выберите длину</span>
+                        <div class ="width_arr">
+                            <select class="select-css-number" id="y">
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                            </select>
+                        </div>
+                        <button class="button" onclick="test()" > Генерация таблицы</button>
+                    </div>
+                </div>
+           </section>
+        </body>
+</html>
